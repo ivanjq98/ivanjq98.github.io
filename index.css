@@ -4,14 +4,41 @@ body {
   padding: 0;
 }
 
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 header {
   background-color: #f2f2f2;
   text-align: center;
   padding: 20px 0;
 }
 
-section {
+.intro {
+  text-align: center;
   margin: 20px;
+}
+
+.intro img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.buttons {
+  margin-top: 20px;
 }
 
 footer {
