@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Set the background color for the entire page */
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  min-width: 900px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3377FF;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.intro {
+  text-align: justify; /* Set the text alignment to justified */
+  margin: 20px auto; /* Center the box horizontally */
+  width: 70%; /* Set the width to 70% */
+  background-color: #fff; /* Add a background color to the box */
+  padding: 20px; /* Add padding to the box */
+  box-sizing: border-box; /* Include padding in the width */
+  line-height: 1.5; /* Set the line height to 1.5 for 1.5 spacing */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Set flex direction to column */
+  align-items: center; /* Center items horizontally */
+}
+
+.intro img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px; /* Add margin to the bottom of the image */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
