@@ -66,25 +66,16 @@ footer {
   padding: 20px 0;
 }
 
-.buttons {
-  margin-top: 20px;
-}
-
-.buttons button {
-  background-color: #333;
-  color: #fff;
-  border: none;
+.button-link {
+  display: inline-block;
   padding: 10px 20px;
-  margin: 0 5px;
-  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none; /* Remove the underline */
+  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
-.buttons button:hover {
+.button-link:hover {
   background-color: #555;
-}
-
-footer {
-  text-align: center;
-  padding: 20px 0;
 }
