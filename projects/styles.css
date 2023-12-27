@@ -98,3 +98,8 @@ body {
     flex: 1;
     padding: 0 20px; /* Add padding for spacing between columns */
   }
+
+  p
+  {
+    text-align: justify;
+  }
