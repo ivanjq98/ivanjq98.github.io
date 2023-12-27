@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Set the background color for the entire page */
+  }
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    min-width: 900px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3377FF;
+  }
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .resume-section {
+    margin: 20px auto; /* Center the box horizontally */
+    width: 68%; /* Set the width to 70% */
+    background-color: #fff; /* Add a background color to the box */
+    padding: 20px; /* Add padding to the box */
+    box-sizing: border-box; /* Include padding in the width */
+    line-height: 1.5; /* Set the line height to 1.5 for 1.5 spacing */
+  }
+
+  h2 {
+    border-bottom: 2px solid #000;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .education-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0; /* Remove the default margin-bottom */
+  }
+  
+  .left-content {
+    flex: 1;
+  }
+  
+  .right-content {
+    flex: 1;
+    text-align: right;
+  }
+
+  .job {
+    margin: 0px;
+  }
+
+  h3, p
+  {
+    margin:0px;
+  }
