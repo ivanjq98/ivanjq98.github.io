@@ -89,3 +89,12 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
+
+  .section-container {
+    display: flex;
+  }
+  
+  .section {
+    flex: 1;
+    padding: 0 20px; /* Add padding for spacing between columns */
+  }
