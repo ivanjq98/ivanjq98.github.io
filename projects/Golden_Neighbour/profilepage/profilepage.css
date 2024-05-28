@@ -1,0 +1,234 @@
+#goldenhead;
+{
+	position: absolute;
+	height:0px;
+	font-size: 100%;
+	padding: 10px;
+	background-color: black;
+	width: 90%;
+
+}
+header
+{
+	background-color:black;
+}
+body
+{
+	font-family: Verdan, Arial, sans-serif;
+	background-color: green;
+	background-image: url(../src/img/logo/galaxy.jpg);
+	min-width: 800px;	
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	/* box-shadow: 7px 7px 5px black; */
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;	
+	padding-top: 20px;
+	clear: both;
+	line-height: 1.5;
+}
+
+#wrapper
+{
+	width: auto;
+	height: auto;
+	position: relative;
+	padding-top: 0px;
+}
+
+/* Header */
+
+.parent 
+{
+	margin: 0rem;
+	padding: 1rem 1rem;
+}
+
+.button-link /* . ==> class from the hyperlink*/
+{
+	display: inline-block; 
+	padding: 15px 20px; /* Box 8 */
+	color: #ffffff; /* White */
+	text-decoration:none; /* Remove the default unerline on the link */
+	cursor: pointer;
+}
+
+#right-header-button-link
+{
+	margin-top: 5px;
+	position:absolute;
+	right: 140px;
+	display: inline-block;
+	padding: 10px 20px; /* Box 8 */
+	color: #ffffff; 
+}
+
+#left-header-button-link
+{
+	margin-top: 5px;
+	position:absolute;
+	left: 150px;
+	display: inline-block;
+	padding: 20px; /* Box 8 */
+	color: #ffffff;
+	padding: 6px 18px; 
+}
+
+.my-profile-button-link
+{
+	margin-top: 5px;
+	position:absolute;
+	right: 10px;
+	display: inline-block;
+	padding: 6px 18px; /* Box 8 */
+	background-color: #0077b6;
+	color: #ffffff;
+	text-decoration:none; /* Remove the default unerline on the link */
+	border: none; /* Remove the default border */
+	border-radius: 5px; /* Rounded corner */
+	transition: 0.5s;
+}
+
+.my-profile-button-link:hover
+{
+	background-color: green;
+}
+
+
+/* End of Header */
+
+
+/* My Profile */
+.profile-info {
+    text-align: center;
+    padding: 20px;
+	background-color: grey;
+	color: white;
+	border: 1em solid beige;
+	border-radius: 5px; /* Rounded corner */
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.action-buttons button {
+    margin-left: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-buttons button:hover {
+    background-color: #2980b9;
+}
+
+.profile-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.booking-history {
+    padding: 20px;
+	background-color: grey;
+	color: white;
+	border: 1em solid beige;
+	border-radius: 5px; /* Rounded corner */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+	width: 50%;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.logout-button, .change-password-button
+{
+	padding: 6px 18px; /* Box 8 */
+	background-color: #0077b6;
+	color: #ffffff;
+	text-decoration:none; /* Remove the default unerline on the link */
+	border: none; /* Remove the default border */
+	border-radius: 5px; /* Rounded corner */
+	transition: 0.5s;
+}
+
+.logout-button:hover, .change-password-button:hover
+{
+	background-color: purple;
+}
+.admin-button
+{
+	padding-left:10px;
+	display: inline-block; 
+	color: #ffffff; /* White */
+	text-decoration:none; /* Remove the default unerline on the link */
+	cursor: pointer;
+}
+.profile-info, .booking-history{
+
+	background: rgba(0, 0, 0, 0.2);
+	/* border-radius: 16px; */
+	/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 0px solid rgba(255, 255, 255, 0.3);
+}
+
+.left
+{
+	float: left;
+    width: 35%;
+    min-height: 800px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right
+{
+	float: right;
+    width: 65%;
+    min-height: 800px;
+    margin-top: 20px;
+}
